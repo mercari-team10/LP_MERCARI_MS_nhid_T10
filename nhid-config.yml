@@ -1,0 +1,12 @@
+ApplicationPort: 5000
+
+Mongo:
+  UsingAuth: false
+  Username: user
+  Password: password
+  URL: localhost:27017
+  Database: nhid_service
+
+RSA:
+  PublicKeyFile: /mnt/mewis/Programs/techmeet2022/keys/nhid.pub
+  PrivateKeyFile: /mnt/mewis/Programs/techmeet2022/keys/nhid.priv
